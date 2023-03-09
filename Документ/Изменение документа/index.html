@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <ol id="elem">
+            <li>Привет</li>
+            <li>Мир</li>
+        </ol>
+        <div id="container"></div>
+        <hr />
+        <div class="count-elem">
+            <ul>
+                <li>
+                    Животные
+                    <ul>
+                        <li>
+                            Млекопитающие
+                            <ul>
+                                <li>Коровы</li>
+                                <li>Ослы</li>
+                                <li>Собаки</li>
+                                <li>Тигры</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Другие
+                            <ul>
+                                <li>Змеи</li>
+                                <li>Птицы</li>
+                                <li>Ящерицы</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Рыбы
+                    <ul>
+                        <li>
+                            Аквариумные
+                            <ul>
+                                <li>Гуппи</li>
+                                <li>Скалярии</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Морские
+                            <ul>
+                                <li>Морская форель</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <hr />
+        <div id="calendar" style="text-align: center"></div>
+        <hr />
+        <div id="clock"><span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span></div>
+        <input type="button" onclick="clockStart()" value="Start" />
+        <input type="button" onclick="clockStop()" value="Stop" />
+        <hr />
+        <table id="sorted-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Smith</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Pete</td>
+                    <td>Brown</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Ann</td>
+                    <td>Lee</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="./index.js"></script>
+        <script src="./index1.js"></script>
+    </body>
+</html>
